@@ -21,7 +21,7 @@ public class OrchestratorApplication {
 
 	@EventListener
 	  private void processPostDeploy(PostDeployEvent event) {
-	    runtimeService.startProcessInstanceByKey("Process_1");
+	    runtimeService.startProcessInstanceByKey("http");
 	}
 }
 

@@ -37,11 +37,29 @@
 		</dependency>
 		
 		<dependency>
-      		<groupId>org.camunda.bpm.springboot</groupId>
-      		<artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
-      		<version>3.2.0</version>
-    	</dependency>
-    	
+    		<groupId>org.camunda.bpm.springboot</groupId>
+    		<artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
+    		<version>3.2.0</version>
+		</dependency>
+		
+		<dependency>
+  			<groupId>org.camunda.connect</groupId>
+  			<artifactId>camunda-connect-core</artifactId>
+  			<version>1.1.1</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.camunda.connect</groupId>
+    		<artifactId>camunda-connect-connectors-all</artifactId>
+    		<version>1.1.1</version>
+  		</dependency>
+  		
+  		<dependency>
+    		<groupId>org.camunda.bpm</groupId>
+   			<artifactId>camunda-engine-plugin-connect</artifactId>
+    		<version>7.10.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
