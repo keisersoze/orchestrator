@@ -1,7 +1,8 @@
 camunda.bpm:
-  admin-user:
-    id: kermit
-    password: superSecret
-    firstName: Kermit
   filter:
     create: All tasks
+  authorization:
+    enabled: false
+auth:
+  access_token_validity_seconds: 300
+  simmetric_key: 4pE8z3PBoHjnv1AhvGk+e8h2p+ShzpOnpr8cwHmMh1w=
